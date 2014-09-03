@@ -1,0 +1,581 @@
+
+ *** Current working directory
+/home/rbull/A4/Turnin
+
+ *** Compiler
+Using built-in specs.
+Target: x86_64-redhat-linux
+Configured with: ../configure --prefix=/usr --mandir=/usr/share/man --infodir=/usr/share/info --with-bugurl=http://bugzilla.redhat.com/bugzilla --enable-bootstrap --enable-shared --enable-threads=posix --enable-checking=release --with-system-zlib --enable-__cxa_atexit --disable-libunwind-exceptions --enable-gnu-unique-object --enable-languages=c,c++,objc,obj-c++,java,fortran,ada --enable-java-awt=gtk --disable-dssi --with-java-home=/usr/lib/jvm/java-1.5.0-gcj-1.5.0.0/jre --enable-libgcj-multifile --enable-java-maintainer-mode --with-ecj-jar=/usr/share/java/eclipse-ecj.jar --disable-libjava-multilib --with-ppl --with-cloog --with-tune=generic --with-arch_32=i686 --build=x86_64-redhat-linux
+Thread model: posix
+gcc version 4.4.6 20120305 (Red Hat 4.4.6-4) (GCC) 
+
+ *** Environment
+MANPATH=/opt/openmpi/share/man:/usr/share/man:/opt/gridengine/man:/opt/openmpi/share/man:/usr/share/man/en:/usr/share/man:/opt/gridengine/man:/share/apps/opt/gcc-4.7.3/share/man:/usr/local/share/man:/opt/rocks/man:/usr/java/latest/man:/opt/ganglia/man:/opt/sun-ct/man
+PDSHROOT=/opt/pdsh
+HOSTNAME=compute-0-21.local
+SGE_TASK_STEPSIZE=undefined
+SHELL=/bin/bash
+TERM=xterm
+NHOSTS=2
+HISTSIZE=1000
+ECLIPSE_HOME=/opt/eclipse
+SGE_O_WORKDIR=/home/rbull/A4/Turnin
+TMPDIR=/tmp/8050.1.mpi.q
+SSH_CLIENT=98.155.119.56 50615 22
+SGE_O_HOME=/home/rbull
+SGE_ARCH=linux-x64
+SGE_CELL=default
+MPICH_PROCESS_GROUP=no
+OLDPWD=/home/rbull/A4/Turnin
+QTDIR=/usr/lib64/qt-3.3
+QTINC=/usr/lib64/qt-3.3/include
+RESTARTED=0
+SSH_TTY=/dev/pts/2
+ANT_HOME=/opt/rocks
+ARC=linux-x64
+USER=rbull
+LS_COLORS=rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=01;05;37;41:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arj=01;31:*.taz=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lz=01;31:*.xz=01;31:*.bz2=01;31:*.tbz=01;31:*.tbz2=01;31:*.bz=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.rar=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.jpg=01;35:*.jpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.axv=01;35:*.anx=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=01;36:*.au=01;36:*.flac=01;36:*.mid=01;36:*.midi=01;36:*.mka=01;36:*.mp3=01;36:*.mpc=01;36:*.ogg=01;36:*.ra=01;36:*.wav=01;36:*.axa=01;36:*.oga=01;36:*.spx=01;36:*.xspf=01;36:
+LD_LIBRARY_PATH=/opt/gridengine/lib/linux-x64:/opt/openmpi/lib:/share/apps/opt/gcc-4.7.3/lib:/share/apps/opt/gcc-4.7.3/lib64:/opt/gridengine/lib/linux-x64
+SGE_TASK_LAST=undefined
+QUEUE=mpi.q
+ROCKS_ROOT=/opt/rocks
+SGE_TASK_ID=undefined
+SGE_BINARY_PATH=/opt/gridengine/bin/linux-x64
+MAIL=/var/spool/mail/rbull
+PATH=/usr/bin/:/tmp/8050.1.mpi.q:/opt/openmpi/bin:/share/apps/opt/gcc-4.7.3/bin:/usr/bin/:/usr/lib64/qt-3.3/bin:/usr/local/bin:/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/sbin:/opt/eclipse:/opt/ganglia/bin:/opt/ganglia/sbin:/usr/java/latest/bin:/opt/pdsh/bin:/opt/rocks/bin:/opt/rocks/sbin:/opt/gridengine/bin/linux-x64:/share/apps/bin:/share/apps/sbin:/home/rbull/bin:/home/rbull/bin
+runlevel=5
+RUNLEVEL=5
+SGE_STDERR_PATH=/home/rbull/A4/Turnin/APF-STRONG-16.o8050
+LANGSH_SOURCED=1
+PWD=/home/rbull/A4/Turnin
+JAVA_HOME=/usr/java/latest
+_LMFILES_=/etc/modulefiles/gcc-4.7.3:/usr/share/Modules/modulefiles/rocks-openmpi_openib
+SGE_STDOUT_PATH=/home/rbull/A4/Turnin/APF-STRONG-16.o8050
+SGE_ACCOUNT=sge
+SGE_RSH_COMMAND=/usr/bin/ssh
+SGE_EXECD_PORT=537
+LANG=en_US.iso885915
+JOB_SCRIPT=/opt/gridengine/default/spool/compute-0-21/job_scripts/8050
+JOB_NAME=APF-STRONG-16
+MODULEPATH=/usr/share/Modules/modulefiles:/etc/modulefiles
+SGE_QMASTER_PORT=536
+LOADEDMODULES=gcc-4.7.3:rocks-openmpi_openib
+SGE_ROOT=/opt/gridengine
+ROCKS_USER_MODULE_DEF=true
+previous=N
+PREVLEVEL=N
+REQNAME=APF-STRONG-16
+SGE_JOB_SPOOL_DIR=/opt/gridengine/default/spool/compute-0-21/active_jobs/8050.1
+ENVIRONMENT=BATCH
+KRB5CCNAME=FILE:/tmp/krb5cc_3012_sKUL7C
+HISTCONTROL=ignoredups
+SSH_ASKPASS=/usr/libexec/openssh/gnome-ssh-askpass
+CONSOLETYPE=vt
+PE_HOSTFILE=/opt/gridengine/default/spool/compute-0-21/active_jobs/8050.1/pe_hostfile
+HOME=/home/rbull
+SHLVL=2
+SGE_CWD_PATH=/home/rbull/A4/Turnin
+NQUEUES=2
+SGE_O_LOGNAME=rbull
+SGE_O_MAIL=/var/spool/mail/rbull
+MPIHOME=/opt/openmpi
+UPSTART_INSTANCE=
+TMP=/tmp/8050.1.mpi.q
+JOB_ID=8050
+LOGNAME=rbull
+UPSTART_EVENTS=runlevel
+CVS_RSH=ssh
+QTLIB=/usr/lib64/qt-3.3/lib
+PE=orte
+SSH_CONNECTION=98.155.119.56 50615 132.239.145.212 22
+SGE_TASK_FIRST=undefined
+MODULESHOME=/usr/share/Modules
+LESSOPEN=|/usr/bin/lesspipe.sh %s
+SGE_O_PATH=/opt/openmpi/bin:/share/apps/opt/gcc-4.7.3/bin:/usr/bin/:/usr/lib64/qt-3.3/bin:/usr/local/bin:/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/sbin:/opt/eclipse:/opt/ganglia/bin:/opt/ganglia/sbin:/usr/java/latest/bin:/opt/pdsh/bin:/opt/rocks/bin:/opt/rocks/sbin:/opt/gridengine/bin/linux-x64:/share/apps/bin:/share/apps/sbin:/home/rbull/bin
+UPSTART_JOB=rc
+SGE_O_HOST=ccom-bang-login
+SGE_O_SHELL=/bin/bash
+REQUEST=APF-STRONG-16
+NSLOTS=16
+PUB=/share/class/public/cse160-fa13
+SGE_STDIN_PATH=/dev/null
+G_BROKEN_FILENAMES=1
+SCRATCH=/scratch/rbull
+OMPI_MCA_btl=openib,self,sm
+module=() {  eval `/usr/bin/modulecmd bash $*`
+}
+_=/usr/bin/printenv
+
+>>> Job Starts
+Sun Dec  8 12:27:52 PST 2013
+
+[Simulation begins] Sun Dec  8 12:27:53 2013
+
+dt= 0.000574639, # iters = 60
+m x n = 2867 x 2867
+processor geometry: 1 x 4
+
+Compiled with MPI ENabled
+
+[Simulation completes] Sun Dec  8 12:27:57 2013
+
+End at iteration 60
+Max norm: 9.999957e-01, L2norm: 6.957131e-01
+Running Time: 3.94372 sec.
+GFlop rate: 3.5
+
+  M x N [px x py] {C?} [#iter] {T_p, Gflops} Linf, L2
+@ 2867 2867 [1 4]  {Y}	[ 60] {3.944 3.502} 9.99996e-01 6.95713e-01
+  -----
+
+[Simulation begins] Sun Dec  8 12:27:58 2013
+
+dt= 0.000574639, # iters = 60
+m x n = 2867 x 2867
+processor geometry: 2 x 2
+
+Compiled with MPI ENabled
+
+[Simulation completes] Sun Dec  8 12:28:02 2013
+
+End at iteration 60
+Max norm: 9.999957e-01, L2norm: 6.957131e-01
+Running Time: 4.1241 sec.
+GFlop rate: 3.35
+
+  M x N [px x py] {C?} [#iter] {T_p, Gflops} Linf, L2
+@ 2867 2867 [2 2]  {Y}	[ 60] {4.124 3.348} 9.99996e-01 6.95713e-01
+  -----
+
+[Simulation begins] Sun Dec  8 12:28:03 2013
+
+dt= 0.000574639, # iters = 60
+m x n = 2867 x 2867
+processor geometry: 4 x 1
+
+Compiled with MPI ENabled
+
+[Simulation completes] Sun Dec  8 12:28:08 2013
+
+End at iteration 60
+Max norm: 9.999957e-01, L2norm: 6.957131e-01
+Running Time: 4.19663 sec.
+GFlop rate: 3.29
+
+  M x N [px x py] {C?} [#iter] {T_p, Gflops} Linf, L2
+@ 2867 2867 [4 1]  {Y}	[ 60] {4.197 3.291} 9.99996e-01 6.95713e-01
+  -----
+
+[Simulation begins] Sun Dec  8 12:28:09 2013
+
+dt= 0.000574639, # iters = 60
+m x n = 2867 x 2867
+processor geometry: 1 x 8
+
+Compiled with MPI ENabled
+
+[Simulation completes] Sun Dec  8 12:28:13 2013
+
+End at iteration 60
+Max norm: 9.999957e-01, L2norm: 6.957131e-01
+Running Time: 3.78587 sec.
+GFlop rate: 3.65
+
+  M x N [px x py] {C?} [#iter] {T_p, Gflops} Linf, L2
+@ 2867 2867 [1 8]  {Y}	[ 60] {3.786 3.648} 9.99996e-01 6.95713e-01
+  -----
+
+[Simulation begins] Sun Dec  8 12:28:14 2013
+
+dt= 0.000574639, # iters = 60
+m x n = 2867 x 2867
+processor geometry: 2 x 4
+
+Compiled with MPI ENabled
+
+[Simulation completes] Sun Dec  8 12:28:18 2013
+
+End at iteration 60
+Max norm: 9.999957e-01, L2norm: 6.957131e-01
+Running Time: 3.85326 sec.
+GFlop rate: 3.58
+
+  M x N [px x py] {C?} [#iter] {T_p, Gflops} Linf, L2
+@ 2867 2867 [2 4]  {Y}	[ 60] {3.853 3.584} 9.99996e-01 6.95713e-01
+  -----
+
+[Simulation begins] Sun Dec  8 12:28:19 2013
+
+dt= 0.000574639, # iters = 60
+m x n = 2867 x 2867
+processor geometry: 4 x 2
+
+Compiled with MPI ENabled
+
+[Simulation completes] Sun Dec  8 12:28:23 2013
+
+End at iteration 60
+Max norm: 9.999957e-01, L2norm: 6.957131e-01
+Running Time: 3.99964 sec.
+GFlop rate: 3.45
+
+  M x N [px x py] {C?} [#iter] {T_p, Gflops} Linf, L2
+@ 2867 2867 [4 2]  {Y}	[ 60] {4 3.453} 9.99996e-01 6.95713e-01
+  -----
+
+[Simulation begins] Sun Dec  8 12:28:24 2013
+
+dt= 0.000574639, # iters = 60
+m x n = 2867 x 2867
+processor geometry: 8 x 1
+
+Compiled with MPI ENabled
+
+[Simulation completes] Sun Dec  8 12:28:29 2013
+
+End at iteration 60
+Max norm: 9.999957e-01, L2norm: 6.957131e-01
+Running Time: 4.2792 sec.
+GFlop rate: 3.23
+
+  M x N [px x py] {C?} [#iter] {T_p, Gflops} Linf, L2
+@ 2867 2867 [8 1]  {Y}	[ 60] {4.279 3.227} 9.99996e-01 6.95713e-01
+  -----
+
+[Simulation begins] Sun Dec  8 12:28:30 2013
+
+dt= 0.000574639, # iters = 60
+m x n = 2867 x 2867
+processor geometry: 1 x 16
+
+Compiled with MPI ENabled
+
+[Simulation completes] Sun Dec  8 12:28:33 2013
+
+End at iteration 60
+Max norm: 9.999957e-01, L2norm: 6.957131e-01
+Running Time: 2.07637 sec.
+GFlop rate: 6.65
+
+  M x N [px x py] {C?} [#iter] {T_p, Gflops} Linf, L2
+@ 2867 2867 [1 16]  {Y}	[ 60] {2.076 6.651} 9.99996e-01 6.95713e-01
+  -----
+
+[Simulation begins] Sun Dec  8 12:28:34 2013
+
+dt= 0.000574639, # iters = 60
+m x n = 2867 x 2867
+processor geometry: 2 x 8
+
+Compiled with MPI ENabled
+
+[Simulation completes] Sun Dec  8 12:28:36 2013
+
+End at iteration 60
+Max norm: 9.999957e-01, L2norm: 6.957131e-01
+Running Time: 2.03254 sec.
+GFlop rate: 6.79
+
+  M x N [px x py] {C?} [#iter] {T_p, Gflops} Linf, L2
+@ 2867 2867 [2 8]  {Y}	[ 60] {2.033 6.794} 9.99996e-01 6.95713e-01
+  -----
+
+[Simulation begins] Sun Dec  8 12:28:38 2013
+
+dt= 0.000574639, # iters = 60
+m x n = 2867 x 2867
+processor geometry: 4 x 4
+
+Compiled with MPI ENabled
+
+[Simulation completes] Sun Dec  8 12:28:40 2013
+
+End at iteration 60
+Max norm: 9.999957e-01, L2norm: 6.957131e-01
+Running Time: 2.01519 sec.
+GFlop rate: 6.85
+
+  M x N [px x py] {C?} [#iter] {T_p, Gflops} Linf, L2
+@ 2867 2867 [4 4]  {Y}	[ 60] {2.015 6.852} 9.99996e-01 6.95713e-01
+  -----
+
+[Simulation begins] Sun Dec  8 12:28:42 2013
+
+dt= 0.000574639, # iters = 60
+m x n = 2867 x 2867
+processor geometry: 8 x 2
+
+Compiled with MPI ENabled
+
+[Simulation completes] Sun Dec  8 12:28:44 2013
+
+End at iteration 60
+Max norm: 9.999957e-01, L2norm: 6.957131e-01
+Running Time: 2.15641 sec.
+GFlop rate: 6.4
+
+  M x N [px x py] {C?} [#iter] {T_p, Gflops} Linf, L2
+@ 2867 2867 [8 2]  {Y}	[ 60] {2.156 6.404} 9.99996e-01 6.95713e-01
+  -----
+
+[Simulation begins] Sun Dec  8 12:28:45 2013
+
+dt= 0.000574639, # iters = 60
+m x n = 2867 x 2867
+processor geometry: 16 x 1
+
+Compiled with MPI ENabled
+
+[Simulation completes] Sun Dec  8 12:28:48 2013
+
+End at iteration 60
+Max norm: 9.999957e-01, L2norm: 6.957131e-01
+Running Time: 2.48325 sec.
+GFlop rate: 5.56
+
+  M x N [px x py] {C?} [#iter] {T_p, Gflops} Linf, L2
+@ 2867 2867 [16 1]  {Y}	[ 60] {2.483 5.561} 9.99996e-01 6.95713e-01
+  -----
+-------------- NO COMM ---------------
+
+[Simulation begins] Sun Dec  8 12:28:49 2013
+
+dt= 0.000574639, # iters = 60
+m x n = 2867 x 2867
+processor geometry: 1 x 4
+
+Compiled with MPI ENabled
+Communication shut off
+
+[Simulation completes] Sun Dec  8 12:28:53 2013
+
+End at iteration 60
+Max norm: 9.999957e-01, L2norm: 6.957134e-01
+Running Time: 3.7435 sec.
+GFlop rate: 3.69
+
+  M x N [px x py] {C?} [#iter] {T_p, Gflops} Linf, L2
+@ 2867 2867 [1 4]  {N}	[ 60] {3.744 3.689} 9.99996e-01 6.95713e-01
+  -----
+
+[Simulation begins] Sun Dec  8 12:28:54 2013
+
+dt= 0.000574639, # iters = 60
+m x n = 2867 x 2867
+processor geometry: 2 x 2
+
+Compiled with MPI ENabled
+Communication shut off
+
+[Simulation completes] Sun Dec  8 12:28:59 2013
+
+End at iteration 60
+Max norm: 9.999957e-01, L2norm: 6.963767e-01
+Running Time: 3.52318 sec.
+GFlop rate: 3.92
+
+  M x N [px x py] {C?} [#iter] {T_p, Gflops} Linf, L2
+@ 2867 2867 [2 2]  {N}	[ 60] {3.523 3.919} 9.99996e-01 6.96377e-01
+  -----
+
+[Simulation begins] Sun Dec  8 12:29:00 2013
+
+dt= 0.000574639, # iters = 60
+m x n = 2867 x 2867
+processor geometry: 4 x 1
+
+Compiled with MPI ENabled
+Communication shut off
+
+[Simulation completes] Sun Dec  8 12:29:04 2013
+
+End at iteration 60
+Max norm: 9.999957e-01, L2norm: 6.963764e-01
+Running Time: 3.96473 sec.
+GFlop rate: 3.48
+
+  M x N [px x py] {C?} [#iter] {T_p, Gflops} Linf, L2
+@ 2867 2867 [4 1]  {N}	[ 60] {3.965 3.483} 9.99996e-01 6.96376e-01
+  -----
+
+[Simulation begins] Sun Dec  8 12:29:05 2013
+
+dt= 0.000574639, # iters = 60
+m x n = 2867 x 2867
+processor geometry: 1 x 8
+
+Compiled with MPI ENabled
+Communication shut off
+
+[Simulation completes] Sun Dec  8 12:29:09 2013
+
+End at iteration 60
+Max norm: 9.999957e-01, L2norm: 6.957164e-01
+Running Time: 3.76853 sec.
+GFlop rate: 3.66
+
+  M x N [px x py] {C?} [#iter] {T_p, Gflops} Linf, L2
+@ 2867 2867 [1 8]  {N}	[ 60] {3.769 3.664} 9.99996e-01 6.95716e-01
+  -----
+
+[Simulation begins] Sun Dec  8 12:29:10 2013
+
+dt= 0.000574639, # iters = 60
+m x n = 2867 x 2867
+processor geometry: 2 x 4
+
+Compiled with MPI ENabled
+Communication shut off
+
+[Simulation completes] Sun Dec  8 12:29:14 2013
+
+End at iteration 60
+Max norm: 9.999957e-01, L2norm: 6.963767e-01
+Running Time: 3.74161 sec.
+GFlop rate: 3.69
+
+  M x N [px x py] {C?} [#iter] {T_p, Gflops} Linf, L2
+@ 2867 2867 [2 4]  {N}	[ 60] {3.742 3.691} 9.99996e-01 6.96377e-01
+  -----
+
+[Simulation begins] Sun Dec  8 12:29:15 2013
+
+dt= 0.000574639, # iters = 60
+m x n = 2867 x 2867
+processor geometry: 4 x 2
+
+Compiled with MPI ENabled
+Communication shut off
+
+[Simulation completes] Sun Dec  8 12:29:19 2013
+
+End at iteration 60
+Max norm: 9.999957e-01, L2norm: 6.963767e-01
+Running Time: 3.78242 sec.
+GFlop rate: 3.65
+
+  M x N [px x py] {C?} [#iter] {T_p, Gflops} Linf, L2
+@ 2867 2867 [4 2]  {N}	[ 60] {3.782 3.651} 9.99996e-01 6.96377e-01
+  -----
+
+[Simulation begins] Sun Dec  8 12:29:20 2013
+
+dt= 0.000574639, # iters = 60
+m x n = 2867 x 2867
+processor geometry: 8 x 1
+
+Compiled with MPI ENabled
+Communication shut off
+
+[Simulation completes] Sun Dec  8 12:29:25 2013
+
+End at iteration 60
+Max norm: 9.999957e-01, L2norm: 6.961404e-01
+Running Time: 4.16772 sec.
+GFlop rate: 3.31
+
+  M x N [px x py] {C?} [#iter] {T_p, Gflops} Linf, L2
+@ 2867 2867 [8 1]  {N}	[ 60] {4.168 3.313} 9.99996e-01 6.96140e-01
+  -----
+
+[Simulation begins] Sun Dec  8 12:29:26 2013
+
+dt= 0.000574639, # iters = 60
+m x n = 2867 x 2867
+processor geometry: 1 x 16
+
+Compiled with MPI ENabled
+Communication shut off
+
+[Simulation completes] Sun Dec  8 12:29:28 2013
+
+End at iteration 60
+Max norm: 9.999957e-01, L2norm: 6.957164e-01
+Running Time: 1.87559 sec.
+GFlop rate: 7.36
+
+  M x N [px x py] {C?} [#iter] {T_p, Gflops} Linf, L2
+@ 2867 2867 [1 16]  {N}	[ 60] {1.876 7.363} 9.99996e-01 6.95716e-01
+  -----
+
+[Simulation begins] Sun Dec  8 12:29:30 2013
+
+dt= 0.000574639, # iters = 60
+m x n = 2867 x 2867
+processor geometry: 2 x 8
+
+Compiled with MPI ENabled
+Communication shut off
+
+[Simulation completes] Sun Dec  8 12:29:32 2013
+
+End at iteration 60
+Max norm: 9.999957e-01, L2norm: 6.963797e-01
+Running Time: 1.83665 sec.
+GFlop rate: 7.52
+
+  M x N [px x py] {C?} [#iter] {T_p, Gflops} Linf, L2
+@ 2867 2867 [2 8]  {N}	[ 60] {1.837 7.519} 9.99996e-01 6.96380e-01
+  -----
+
+[Simulation begins] Sun Dec  8 12:29:33 2013
+
+dt= 0.000574639, # iters = 60
+m x n = 2867 x 2867
+processor geometry: 4 x 4
+
+Compiled with MPI ENabled
+Communication shut off
+
+[Simulation completes] Sun Dec  8 12:29:35 2013
+
+End at iteration 60
+Max norm: 9.999957e-01, L2norm: 6.963767e-01
+Running Time: 1.92646 sec.
+GFlop rate: 7.17
+
+  M x N [px x py] {C?} [#iter] {T_p, Gflops} Linf, L2
+@ 2867 2867 [4 4]  {N}	[ 60] {1.926 7.168} 9.99996e-01 6.96377e-01
+  -----
+
+[Simulation begins] Sun Dec  8 12:29:37 2013
+
+dt= 0.000574639, # iters = 60
+m x n = 2867 x 2867
+processor geometry: 8 x 2
+
+Compiled with MPI ENabled
+Communication shut off
+
+[Simulation completes] Sun Dec  8 12:29:39 2013
+
+End at iteration 60
+Max norm: 9.999957e-01, L2norm: 6.961407e-01
+Running Time: 2.00629 sec.
+GFlop rate: 6.88
+
+  M x N [px x py] {C?} [#iter] {T_p, Gflops} Linf, L2
+@ 2867 2867 [8 2]  {N}	[ 60] {2.006 6.883} 9.99996e-01 6.96141e-01
+  -----
+
+[Simulation begins] Sun Dec  8 12:29:40 2013
+
+dt= 0.000574639, # iters = 60
+m x n = 2867 x 2867
+processor geometry: 16 x 1
+
+Compiled with MPI ENabled
+Communication shut off
+
+[Simulation completes] Sun Dec  8 12:29:43 2013
+
+End at iteration 60
+Max norm: 9.999957e-01, L2norm: 6.961404e-01
+Running Time: 2.39876 sec.
+GFlop rate: 5.76
+
+  M x N [px x py] {C?} [#iter] {T_p, Gflops} Linf, L2
+@ 2867 2867 [16 1]  {N}	[ 60] {2.399 5.757} 9.99996e-01 6.96140e-01
+  -----
+Sun Dec  8 12:29:43 PST 2013
+>>> Job Ends
